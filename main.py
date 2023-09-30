@@ -59,6 +59,7 @@ def main():
     print(read_iris_entry_by_id(1))
     delete_iris_entry(1)
     print(read_all_iris_entries())
+    return 1
 
 if __name__ == "__main__":
     main()
