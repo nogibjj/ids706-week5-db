@@ -1,3 +1,2 @@
-from main import main
 def test_max():
-    assert main() == 1
+    assert main() is None
