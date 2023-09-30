@@ -1,2 +1,3 @@
-def test_max():
-    assert main() is None
+from main import main
+def test():
+    assert main() is not None
